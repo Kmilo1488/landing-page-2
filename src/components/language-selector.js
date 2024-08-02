@@ -2,8 +2,8 @@ import React, { useContext, useEffect } from 'react';
 import { languageOptions } from '../languages';
 import { LanguageContext } from '../containers/language';
 import { MenuItem, TextField } from '@mui/material';
-import EnICon from '../images/Languajes/en.svg'
-import EsICon from '../images/Languajes/es.svg'
+import EnICon from '../images/Languages/en.svg'
+import EsICon from '../images/Languages/es.svg'
 import styled from "styled-components"
 
 
@@ -33,9 +33,9 @@ export default function LanguageSelector() {
       onChange={handleLanguageChange}
       value={userLanguage}
     >
-      {Object.entries(languageOptions).map(([id, languaje]) => (
-        <MenuItem key={id} value={languaje}>
-          <ImageIcon src={languaje === "en" ? EnICon : EsICon} />
+      {Object.entries(languageOptions).map(([id, language]) => (
+        <MenuItem key={id} value={language}>
+          <ImageIcon src={language === "en" ? EnICon : EsICon} />
         </MenuItem>
       ))}
     </TextField>

@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import LanguageSelector from '../language-selector';
-import { Text } from "../../containers/language" 
+import { Text } from "../../containers/language"
 
 const NavItem = styled.a`
   text-decoration: none;
@@ -50,20 +50,20 @@ const NavHome = styled(NavItem)`
 const NavbarLinks = (props) => {
 
   const { handleClick } = props
-  
+
   return (
     <>
       <NavHome onClick={handleClick} href="/">
         <Text tkey={"menu"} tid="home" />
       </NavHome>
       <NavItem onClick={handleClick} href="#what-do">
-        <Text tkey="menu" tid="products"/>
+        <Text tkey="menu" tid="products" />
       </NavItem>
       <NavItem onClick={handleClick} href="#dna">
-        <Text tkey="menu" tid="about_us"/>
+        <Text tkey="menu" tid="about_us" />
       </NavItem>
       <NavItem onClick={handleClick} href="#contact-us">
-        <Text tkey="menu" tid="contact"/>
+        <Text tkey="menu" tid="contact" />
       </NavItem>
       <LanguageSelector />
     </>
