@@ -3,7 +3,6 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import Logo from "./logo"
 import NavbarLinks from "./navbar-links"
-import { Container } from "@mui/material"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -18,6 +17,7 @@ const Navigation = styled.nav`
   margin: 20px auto;
   z-index: 1;
   align-self: center;
+  max-width: min-content;
 
   @media (max-width: 768px) {
     margin: 0 auto;
@@ -68,20 +68,18 @@ const Navbar = () => {
   }
 
   return (
-    <Container>
-      <Navigation>
-        <Logo />
-        <Toggle
-          navbarOpen={navbarOpen}
-          onClick={() => handleClick()}
-        >
-          <FontAwesomeIcon icon={faBars} color="black" size="2x" />
-        </Toggle>
-        <Navbox open={!navbarOpen}>
-          <NavbarLinks handleClick={handleClick} />
-        </Navbox>
-      </Navigation>
-    </Container>
+    <Navigation>
+      <Logo />
+      <Toggle
+        navbarOpen={navbarOpen}
+        onClick={() => handleClick()}
+      >
+        <FontAwesomeIcon icon={faBars} color="black" size="2x" />
+      </Toggle>
+      <Navbox open={!navbarOpen}>
+        <NavbarLinks handleClick={handleClick} />
+      </Navbox>
+    </Navigation>
   )
 }
 
