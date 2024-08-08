@@ -2,8 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import Navbar from "./navbar/navbar"
 import Header from "./header"
-import WhatDo from "./WhatDo"
-import Tech from "./Tech"
+import WhoAreWe from "./WhoAreWe"
+import WhyPlibots from "./WhyPlibots"
 import Dna from "./Dna"
 import Clients from "./Clients"
 import ContactUs from "./ContactUs"
@@ -18,8 +18,8 @@ const Layout = () => {
     <Body>
       <Navbar />
       <Header />
-      <WhatDo />
-      <Tech />
+      <WhoAreWe />
+      <WhyPlibots />
       <Dna />
       <Clients />
       <ContactUs />

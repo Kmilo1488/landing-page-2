@@ -11,12 +11,7 @@ const ContainerHeader = styled.div`
   align-items: center;
   height: 100vh;
   margin: 0px;
-  @media (max-width: 768px) {
-    margin: 100px 0;
-  }
 `
-
-
 
 const TextHeader = styled.h1`
   height: auto;
@@ -27,10 +22,12 @@ const TextHeader = styled.h1`
 
   @media (max-width: 425px) and (min-width: 320px)  {
     font-size: 1.5rem;
+    margin: auto 10px;
   }
 
   @media (max-width: 768px) and (min-width: 426px)  {
     font-size: 2.3rem;
+    margin: auto 20px;
   }
 `
 
@@ -56,7 +53,7 @@ const Header = () => {
   return (
     <ContainerHeader>
       <TextHeader>
-        <Text tkey="header" tid="what-do" />
+        <Text tkey="header" tid="title" />
       </TextHeader>
     </ContainerHeader>
   )
