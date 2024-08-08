@@ -8,7 +8,7 @@ const NavItem = styled.a`
   color: #111;
   display: inline-block;
   white-space: nowrap;
-  margin: 0 1vw;
+  margin: 0 8px;
   transition: all 200ms ease-in;
   position: relative;
 
@@ -53,17 +53,23 @@ const NavbarLinks = (props) => {
 
   return (
     <>
-      <NavHome onClick={handleClick} href="/">
-        <Text tkey={"menu"} tid="home" />
+      <NavHome onClick={handleClick} href="#who-are-we">
+        <Text tkey={"menu"} tid="who_are_we" />
       </NavHome>
-      <NavItem onClick={handleClick} href="#what-do">
-        <Text tkey="menu" tid="products" />
+      <NavItem onClick={handleClick} href="#why-plibots">
+        <Text tkey="menu" tid="why_plibots" />
       </NavItem>
-      <NavItem onClick={handleClick} href="#dna">
-        <Text tkey="menu" tid="about_us" />
+      <NavItem onClick={handleClick} href="#our-qhse-platform">
+        <Text tkey="menu" tid="our_qhse_platform" />
+      </NavItem>
+      <NavItem onClick={handleClick} href="#demos">
+        <Text tkey="menu" tid="demos" />
+      </NavItem>
+      <NavItem onClick={handleClick} href="#clients">
+        <Text tkey="menu" tid="clients" />
       </NavItem>
       <NavItem onClick={handleClick} href="#contact-us">
-        <Text tkey="menu" tid="contact" />
+        <Text tkey="menu" tid="contact_us" />
       </NavItem>
       <LanguageSelector />
     </>
