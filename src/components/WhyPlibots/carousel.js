@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Slider from 'react-slick';
+import { Text } from '../../containers/language';
 import image1 from '../../images/WhyPlibots/1.jpg';
 import image2 from '../../images/WhyPlibots/2.jpg';
 import image3 from '../../images/WhyPlibots/3.jpg';
@@ -24,6 +25,36 @@ const StyledImage = styled.img`
   transform: ${props => (props.$isBlurred ? 'scale(1.05)' : 'scale(1)')};
 `;
 
+const Copy = styled.p`
+  font-size: 60px;
+  line-height: 2rem;
+  font-weight: 900;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  width: 100%;
+  margin: 0 10px;
+  font-weight: 300;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: ${props => (props.$showText ? '1' : '0')};
+  transition: opacity 1s ease-in-out;
+  color: white;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 20px !important;
+    max-width: 80%;
+    padding: 15px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 18px !important;
+    max-width: 90%;
+    padding: 10px;
+  }
+`;
+
 const Backdrop = styled.div`
   position: absolute;
   top: 0;
@@ -36,10 +67,13 @@ const Backdrop = styled.div`
   display: ${props => (props.$isBlurred ? 'initial' : 'none')};
 `;
 
-const ImageWithBlur = ({ src, alt, isBlurred }) => (
+const ImageWithBlur = ({ index, src, alt, isBlurred, showText }) => (
   <ImageContainer>
     <Backdrop $isBlurred={isBlurred} />
     <StyledImage src={src} alt={alt} $isBlurred={isBlurred} />
+    <Copy $showText={showText}>
+      <Text tkey="why_plibots" tid={`copy-image-${index + 1}`} />
+    </Copy>
   </ImageContainer>
 );
 
@@ -49,9 +83,15 @@ const CarouselBody = styled.div`
 
 const Carousel = () => {
   const [blurredImageIndex, setBlurredImageIndex] = useState(null);
+  const [showTextIndex, setShowTextIndex] = useState(null);
 
   const handleAfterChange = (current) => {
     setBlurredImageIndex(current);
+    setShowTextIndex(null);
+
+    setTimeout(() => {
+      setShowTextIndex(current);
+    }, 1000);
   };
 
   const settings = {
@@ -64,12 +104,13 @@ const Carousel = () => {
     waitForAnimate: false,
     autoplay: true,
     autoplaySpeed: 5000,
-    afterChange: handleAfterChange
+    afterChange: handleAfterChange,
   };
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setBlurredImageIndex(prevIndex => (prevIndex !== null ? prevIndex : 0));
+      setShowTextIndex(prevIndex => (prevIndex !== null ? prevIndex : 0));
     }, 1000);
 
     return () => clearTimeout(timer);
@@ -83,9 +124,11 @@ const Carousel = () => {
         {images.map((image, index) => (
           <div key={index}>
             <ImageWithBlur
+              index={index}
               src={image}
               alt={`image${index + 1}`}
               isBlurred={index === blurredImageIndex}
+              showText={index === showTextIndex}
             />
           </div>
         ))}

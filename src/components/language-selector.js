@@ -32,6 +32,7 @@ export default function LanguageSelector() {
       select
       onChange={handleLanguageChange}
       value={userLanguage}
+      variant="standard"
     >
       {Object.entries(languageOptions).map(([id, language]) => (
         <MenuItem key={id} value={language}>
