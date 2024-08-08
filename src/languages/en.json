@@ -1,31 +1,35 @@
 {
   "menu": {
-    "home": "HOME",
-    "products": "PRODUCTS",
-    "about_us": "ABOUT US",
-    "contact": "CONTACT"
+    "who_are_we": "WHO ARE WE?",
+    "why_plibots": "WHY PLIBOTS?",
+    "our_qhse_platform": "OUR QHSE PLATFORM",
+    "demos": "DEMOS",
+    "clients": "CLIENTS",
+    "contact_us": "CONTACT US"
   },
   "header": {
     "what-do": "WE BUILD WHAT YOU NEED",
     "what-do-copy": "We are experts in web and mobile software development, we specialize in highly complex ideas solutions and building high impact products.",
     "what-do-copy-2": "We are specialists in creating quality products, through planning, design and development we create high-end products with excellent performance and scalability.",
-    "contact-us": "CONTACT US"
+    "contact-us": "CONTACT US",
+    "title": "Guaranteed security and efficiency: designing the digital future of your organization."
   },
-  "what-do": {
-    "title": "WHAT WE DO",
-    "copy": "DEV4Plus is a Colombia-based software services firm with offices in Bogotá. Our focus is on making high-value products using emerging technologies with a high perspective on solving complex problems.",
-    "product-strategy": "PRODUCT STRATEGY",
-    "product-strategy-copy": "Our main strength is to understand the needs of our customers, our involvement is from beginning to end, we know that products must be created iteratively that will help you achieve products with high impact.",
-    "ui-ux-design": "UX/UI DESIGN",
-    "ui-ux-design-copy": "We know the importance of creating friendly and intuitive user interfaces that meet high quality standards, we focus on stakeholder feedback applying different usability tests, in order to guarantee that our products always meet the needs of users.",
-    "user-research-testing": "INVESTIGATION AND DEVELOPMENT",
-    "user-research-testing-copy": "We work with the customer, proposing innovative solutions with emerging technologies that satisfy the needs of the end user.",
-    "full-stack-development": "FULL STACK DEVELOPMENT",
-    "full-stack-development-copy": "We have a pull of expert developers working with the latest technologies and software architectures that will take your products to another level.",
-    "project-management": "PROJECT MANAGEMENT",
-    "project-management-copy": "Our leadership team and project managers work with you to ensure that all projects are completed on time within the estimated budget.",
-    "quality-assurance": "QUALITY ASSURANCE",
-    "quality-assurance-copy": "We submit our products to a rigorous quality and control process in order to guarantee the success of the products we develop."
+  "who-are-we": {
+    "title": "WHO ARE WE",
+    "copy": "We support organizations with the design and deployment of digital solutions that enable:",
+    "security": "Ensuring people's safety and welfare",
+    "efficiency": "Streamlining the management of QHSE processes"
+  },
+  "why_plibots": {
+    "title": "WHY PLIBOTS?",
+    "copy": "Working with Plibots has 3 key benefits...",
+    "copy-2": "Focused on generating innovative solutions that allow...",
+    "team-title": "Expert team",
+    "team-copy": "Our solutions are designed with interdisciplinary experts with international HSE certifications (such as NEBOSH).",
+    "customization-title": "High customization",
+    "customization-copy": "We customize each solution to suit the particular needs of our customers.",
+    "solutions-title": "Secure and robust solutions",
+    "solutions-copy": "Our solutions are designed considering the best information security practices."
   },
   "tech": {
     "title": "TECHNOLOGIES",

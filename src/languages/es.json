@@ -1,31 +1,35 @@
 {
   "menu": {
-    "home": "INICIO",
-    "products": "PRODUCTOS",
-    "about_us": "NOSOTROS",
-    "contact": "CONTACTO"
+    "who_are_we": "¿QUIENES SOMOS?",
+    "why_plibots": "¿POR QUÉ PLIBOTS?",
+    "our_qhse_platform": "NUESTRA PLATAFORMA QHSE",
+    "demos": "DEMOS",
+    "clients": "CLIENTES",
+    "contact_us": "CONTACTANOS"
   },
   "header": {
     "what-do": "CONSTRUIMOS LO QUE NECESITAS",
     "what-do-copy": "Somos expertos en desarrollo de software web y móvil, nos especializamos en soluciones ideas de alta complejidad y construir productos de alto impacto.",
     "what-do-copy-2": "Somos especialistas en crear productos de calidad, a través de la planeación, diseño y desarrollo creamos productos de alto alcance con excelente rendimiento y escalabilidad.",
-    "contact-us": "CONTACTANOS"
+    "contact-us": "CONTACTANOS",
+    "title": "Seguridad y eficiencia garantizadas: diseñando el futuro digital de tu organización."
   },
-  "what-do": {
-    "title": "QUE HACEMOS",
-    "copy": "DEV4Plus es una firma de servicios de software basada en Colombia con oficinas en Bogotá. Nuestro enfoque se centra en realizar productos de alto valor usando tecnologías emergentes con una alta perspectiva en resolución de problemas complejos.",
-    "product-strategy": "ESTRATEGIA DE PRODUCTO",
-    "product-strategy-copy": "Nuestra principal fortaleza es entender las necesidades de nuestros clientes, nuestro involucramiento es de principio a fin, conocemos que los productos se deben crear de manera iterativa que lo ayudarán a lograr productos con alto impacto.",
-    "ui-ux-design": "DISEÑO UX/UI",
-    "ui-ux-design-copy": "Conocemos la importancia de crear interfaces de usuario amigables e intuitivas, que cumplan con altos estándares de calidad, nos enfocamos en el feedback de los stakeholders aplicando diferentes test de usabilidad, con el fin de garantizar que nuestros productos siempre conozcan las necesidades de los usuarios.",
-    "user-research-testing": "INVESTIGACIÓN Y DESARROLLO",
-    "user-research-testing-copy": "Trabajamos de la mano del cliente, proponiendo soluciones innovadoras con tecnologías emergentes que satisfagan las necesidades del usuario final.",
-    "full-stack-development": "DESARROLLO FULL STACK",
-    "full-stack-development-copy": "Contamos con un pull de expertos desarrolladores trabajando con las últimas tecnologías y arquitecturas de software que llevarán tus productos a otro nivel.",
-    "project-management": "GESTIÓN DE PROYECTOS",
-    "project-management-copy": "Nuestro equipo de liderazgo y project managers trabajan contigo para asegurar que todos los proyectos se completen a tiempo con el presupuesto estimado.",
-    "quality-assurance": "CONTROL DE CALIDAD",
-    "quality-assurance-copy": "Sometemos nuestros productos a un riguroso proceso de control y calidad con el fin de garantizar el éxito en los productos que desarrollamos."
+  "who-are-we": {
+    "title": "¿QUIENES SOMOS?​",
+    "copy": "Apoyamos a las organizaciones con el diseño y despliegue de soluciones digitales que permitan:",
+    "security": "Garantizar la seguridad y bienestar de las personas",
+    "efficiency": "Hacer más eficiente la gestión de los procesos QHSE​"
+  },
+  "why_plibots": {
+    "title": "¿POR QUÉ PLIBOTS?",
+    "copy": "Trabajar con Plibots tiene 3 beneficios clave...",
+    "copy-2": "Concentrados en generar soluciones innovadoras que permitan...",
+    "team-title": "Equipo experto",
+    "team-copy": "Nuestras soluciones se diseñan con expertos interdisciplinarios con certificaciones internacionales en HSE (Como NEBOSH)​",
+    "customization-title": "Alta personalización​",
+    "customization-copy": "Personalizamos cada solución adaptándose a las necesidades particulares de nuestros clientes​",
+    "solutions-title": "Soluciones seguras y robustas​",
+    "solutions-copy": "Nuestras soluciones se diseñan considerando las mejores prácticas de seguridad de la información."
   },
   "tech": {
     "title": "TECNOLOGIAS",
