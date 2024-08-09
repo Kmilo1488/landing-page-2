@@ -39,22 +39,14 @@
     "title": "NUESTRA PLATAFORMA QHSE",
     "copy": "DESARROLLAMOS UNA PLATAFORMA MODULAR DISEÑADA PARA ADMINISTRAR PROCESOS DE QHSE, AJUSTADA A LAS NECESIDADES ESPECÍFICAS DE CADA CLIENTE"
   },
-  "dna": {
-    "title": "NUESTRO ADN",
-    "copy": "Nuestras claves para construir asociaciones exitosas",
-    "title-item-1": "TALENTO ÚNICO    ",
-    "copy-item-1": "Reclutando el mejor talento de Latinoamérica.",
-    "title-item-2": "LARGO PLAZO",
-    "copy-item-2": "Nuestro mayor canal de adquisición es el boca a boca. Solo buscamos asociaciones a largo plazo.",
-    "title-item-3": "COLABORACIÓN EN TIEMPO REAL    ",
-    "copy-item-3": "Estamos alineados con el horario laboral de EE.UU.",
-    "title-item-4": "FLEXIBLE",
-    "copy-item-4": "No se requieren contratos complejos ni compromisos a largo plazo.",
-    "title-item-5": "ECONÓMICO",
-    "copy-item-5": "Reduzca los costos hasta en un 50% en comparación con los recursos basados ​​en EE.UU."
+  "demos": {
+    "title": "DEMOS",
+    "trainings-title": "CAPACITACIONES",
+    "trainings-copy": "Módulo altamente personalizable para gestionar las capacitaciones HSE"
   },
   "clients": {
-    "title": "CLIENTES"
+    "title": "CLIENTES",
+    "copy": "Hemos tenido casos de éxito con empresas de varios sectores y con distintas necesidades​"
   },
   "contact-us": {
     "title": "¡TRABAJEMOS JUNTOS!",

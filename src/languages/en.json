@@ -29,28 +29,24 @@
     "customization-title": "High customization",
     "customization-copy": "We customize each solution to suit the particular needs of our customers.",
     "solutions-title": "Secure and robust solutions",
-    "solutions-copy": "Our solutions are designed considering the best information security practices."
+    "solutions-copy": "Our solutions are designed considering the best information security practices.",
+    "copy-image-1": "DIGITIZING AND AUTOMATING QHSE PROCESSES",
+    "copy-image-2": "ENSURING COMPLIANCE WITH THE HIGHEST INTERNATIONAL STANDARDS",
+    "copy-image-3": "VISUALIZE KEY INDICATORS AND IDENTIFY RELEVANT TRENDS FOR DATA-DRIVEN DECISION MAKING",
+    "copy-image-4": "LEVERAGING TOOLS SUCH AS AI TO STRENGTHEN THE WORK OF QHSE"
   },
   "our-platform": {
     "title": "OUR QHSE PLATFORM",
     "copy": "WE DEVELOPED A MODULAR PLATFORM DESIGNED TO MANAGE QHSE PROCESSES, TAILORED TO THE SPECIFIC NEEDS OF EACH CLIENT."
   },
-  "dna": {
-    "title": "OUR DNA",
-    "copy": "Our keys to building successful parnerships.",
-    "title-item-1": "UNIQUE TALENT",
-    "copy-item-1": "Recruiting the best talent from Latin America.",
-    "title-item-2": "LONG-TERM",
-    "copy-item-2": "Our biggest acquisition channel is word of mouth. We look for long-term partnerships only.",
-    "title-item-3": "REAL-TIME COLLABORATION",
-    "copy-item-3": "We are aligned with U.S working hours.",
-    "title-item-4": "FLEXIBLE",
-    "copy-item-4": "No complex contracts or long-term commitments required.",
-    "title-item-5": "COST-EFFECTIVE",
-    "copy-item-5": "Reduce costs up to 50% compared to U.S based resources."
+  "demos": {
+    "title": "DEMOS",
+    "trainings-title": "TRAININGS",
+    "trainings-copy": "Highly customizable module to manage HSE trainings"
   },
   "clients": {
-    "title": "CLIENTS"
+    "title": "CLIENTS",
+    "copy": "We have had success stories with companies from various sectors and with different needs."
   },
   "contact-us": {
     "title": "LET'S WORK TOGETHER!",
