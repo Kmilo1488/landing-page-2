@@ -2,7 +2,7 @@
   "menu": {
     "who_are_we": "WHO ARE WE?",
     "why_plibots": "WHY PLIBOTS?",
-    "our_qhse_platform": "OUR QHSE PLATFORM",
+    "our_platform": "OUR QHSE PLATFORM",
     "demos": "DEMOS",
     "clients": "CLIENTS",
     "contact_us": "CONTACT US"
@@ -31,12 +31,9 @@
     "solutions-title": "Secure and robust solutions",
     "solutions-copy": "Our solutions are designed considering the best information security practices."
   },
-  "tech": {
-    "title": "TECHNOLOGIES",
-    "copy": "Our Development Skillset",
-    "react": "React",
-    "ruby-on-rails": "Ruby on Rails",
-    "react-native": "React Native"
+  "our-platform": {
+    "title": "OUR QHSE PLATFORM",
+    "copy": "WE DEVELOPED A MODULAR PLATFORM DESIGNED TO MANAGE QHSE PROCESSES, TAILORED TO THE SPECIFIC NEEDS OF EACH CLIENT."
   },
   "dna": {
     "title": "OUR DNA",

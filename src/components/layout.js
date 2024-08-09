@@ -4,7 +4,7 @@ import Navbar from "./navbar/navbar"
 import Header from "./header"
 import WhoAreWe from "./WhoAreWe"
 import WhyPlibots from "./WhyPlibots"
-import Dna from "./Dna"
+import OurPlatform from "./OurPlatform"
 import Clients from "./Clients"
 import ContactUs from "./ContactUs"
 import Footer from "./Footer"
@@ -20,7 +20,7 @@ const Layout = () => {
       <Header />
       <WhoAreWe />
       <WhyPlibots />
-      <Dna />
+      <OurPlatform />
       <Clients />
       <ContactUs />
       <Footer />

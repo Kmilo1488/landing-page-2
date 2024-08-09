@@ -2,7 +2,7 @@ import React from "react"
 import { createGlobalStyle } from 'styled-components'
 import { LanguageProvider } from '../containers/language';
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -14,7 +14,7 @@ const IndexPage = () => (
   <LanguageProvider>
     <GlobalStyle />
     <Layout>
-      <SEO title="Home" />
+      <Seo title="Home" />
     </Layout>
   </LanguageProvider>
 )

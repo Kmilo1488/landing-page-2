@@ -59,8 +59,8 @@ const NavbarLinks = (props) => {
       <NavItem onClick={handleClick} href="#why-plibots">
         <Text tkey="menu" tid="why_plibots" />
       </NavItem>
-      <NavItem onClick={handleClick} href="#our-qhse-platform">
-        <Text tkey="menu" tid="our_qhse_platform" />
+      <NavItem onClick={handleClick} href="#our-platform">
+        <Text tkey="menu" tid="our_platform" />
       </NavItem>
       <NavItem onClick={handleClick} href="#demos">
         <Text tkey="menu" tid="demos" />

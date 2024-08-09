@@ -32,13 +32,12 @@ const Copy = styled.p`
   text-shadow: 0 0 3px #000000, 0 0 5px #000000;
   width: 100%;
   margin: 0 10px;
-  font-weight: 300;
   position: absolute;
   bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: ${props => (props.$showText ? '1' : '0')};
-  transition: opacity 1s ease-in-out;
+  transition: opacity .5s ease-in-out;
   color: white;
   text-align: center;
 
@@ -98,12 +97,12 @@ const Carousel = () => {
     arrows: false,
     fade: true,
     infinite: true,
-    speed: 750,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     waitForAnimate: false,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 7000,
     afterChange: handleAfterChange,
   };
 

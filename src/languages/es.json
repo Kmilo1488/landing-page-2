@@ -2,7 +2,7 @@
   "menu": {
     "who_are_we": "¿QUIENES SOMOS?",
     "why_plibots": "¿POR QUÉ PLIBOTS?",
-    "our_qhse_platform": "NUESTRA PLATAFORMA QHSE",
+    "our_platform": "NUESTRA PLATAFORMA QHSE",
     "demos": "DEMOS",
     "clients": "CLIENTES",
     "contact_us": "CONTACTANOS"
@@ -35,12 +35,9 @@
     "copy-image-3": "VISUALIZAR INDICADORES CLAVE E IDENTIFICAR TENDENCIAS RELEVANTES PARA TOMAR DECISIONES BASADAS EN DATOS",
     "copy-image-4": "APALANCARSE DE HERRAMIENTAS COMO LA INTELIGENCIA ARTIFICIAL PARA FORTALECER LA LABOR DE QHSE"
   },
-  "tech": {
-    "title": "TECNOLOGIAS",
-    "copy": "Nuestro conjunto de Habilidades de desarrollo",
-    "react": "React",
-    "ruby-on-rails": "Ruby on Rails",
-    "react-native": "React Native"
+  "our-platform": {
+    "title": "NUESTRA PLATAFORMA QHSE",
+    "copy": "DESARROLLAMOS UNA PLATAFORMA MODULAR DISEÑADA PARA ADMINISTRAR PROCESOS DE QHSE, AJUSTADA A LAS NECESIDADES ESPECÍFICAS DE CADA CLIENTE"
   },
   "dna": {
     "title": "NUESTRO ADN",
