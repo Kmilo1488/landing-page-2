@@ -5,6 +5,7 @@ import Header from "./header"
 import WhoAreWe from "./WhoAreWe"
 import WhyPlibots from "./WhyPlibots"
 import OurPlatform from "./OurPlatform"
+import Demos from "./Demos"
 import Clients from "./Clients"
 import ContactUs from "./ContactUs"
 import Footer from "./Footer"
@@ -21,6 +22,7 @@ const Layout = () => {
       <WhoAreWe />
       <WhyPlibots />
       <OurPlatform />
+      <Demos />
       <Clients />
       <ContactUs />
       <Footer />
